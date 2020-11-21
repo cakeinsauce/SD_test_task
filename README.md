@@ -19,6 +19,7 @@
 Для поиска по имени используется параметр ```name```, для поиска по параметру используется параметр ```spec```. 
 Для разделения, в значении параметра между ключом:значением используется нижнее подчёркивание.  
 ```curl -X GET "http://127.0.0.1:5000/find?name=<value>&spec=<spec"s key>_<spec"s value>" -H "content-type: application/json"```  
+
 Запросы ниже: 
 1) Поиск по имени и параметру: ```curl -X GET "http://127.0.0.1:5000/find?name=IPhone%20SE&spec=CPU_A13Bionic" -H "content-type: application/json"```
 2) Поиск по имени: ```curl -X GET "http://127.0.0.1:5000/find?name=Xiaomi%20MI%20A1" -H "content-type: application/json"```
