@@ -83,4 +83,4 @@ def get_merch_by_id(merch_id):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
